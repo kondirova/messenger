@@ -31,7 +31,7 @@ public class MessengerTest {
 
     @Test
     void canCreateHelloMessageInSpanish() {
-        assertEquals("Hola John", messenger.createHelloMessage("John", "spanish"));
+        assertEquals("Hola1 John", messenger.createHelloMessage("John", "spanish"));
     }
 
     @Test
